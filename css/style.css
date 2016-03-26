@@ -54,7 +54,7 @@ h1, p
 /***SLIDER***/
 #slider
 {
-    background-image: url('../img/bg.jpg');
+    background:url('../img/bg.jpg');
     width: 100%;
     background-size: cover;
 }
