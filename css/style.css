@@ -1,3 +1,8 @@
+h1, p 
+{
+    font-family: 'Signika Negative', sans-serif; 
+}
+
 /***NAVBAR***/
 
 .navbar-default
@@ -44,3 +49,79 @@
         margin-top:45px;
     }
 }
+
+/***SLIDER***/
+#slider
+{
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.item
+{
+    color:#fff;
+    padding: 200px 0;
+}
+
+.item h1
+{
+    font-size: 2.8em;
+}
+
+.carousel-indicators li
+{
+    background-color:#fff;
+    margin: 5px; 
+}
+
+.carousel-indicators .active
+{
+    background-color:#16a085; 
+    border:1px solid #16a085;
+    margin:5px; 
+}
+
+.btn-success
+{
+    background-color: #16a085;
+    border:#16a085;
+    font-size:0.8em;
+    padding:10px 20px 10px 20px;
+    margin:15px 0;
+}
+
+.btn-success:hover
+{
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
