@@ -85,7 +85,7 @@ h1, p
 
 .btn-success
 {
-    background-color: #16a085;
+    background-color:#16a085;
     border:#16a085;
     font-size:0.8em;
     padding:10px 20px 10px 20px;
@@ -97,10 +97,31 @@ h1, p
     background-color: #000;
 }
 
+/***PHOTO***/
 
+#photo
+{
+    background-color:#f5f6f7;
+    padding:80px 0 80px 0;
+    text-align:center;
+}
 
+#photo h1
+{
+    font-size:1.2em;
+    font-weight:700;
+    color:#16a085;
+}
 
+#photo .fa
+{
+    color:#16a085;
+}
 
+#photo .fa:hover
+{
+    color:#0e6655;
+}
 
 
 
