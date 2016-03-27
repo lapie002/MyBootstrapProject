@@ -60,6 +60,18 @@ h1, p
         padding-bottom:15px;
     }
     
+    #footer
+    {
+        text-align:center;
+    }
+    
+    #footer img
+    {
+        margin:0 auto;
+    }
+    
+    
+    
 }
 
 /***SLIDER***/
@@ -225,11 +237,28 @@ h1, p
     margin-top:15px;
 }
 
+/***FOOTER***/
 
+#footer
+{
+    padding:50px 0 50px 0;
+}
 
+#footer p
+{
+    font-weight:700;
+}
 
+#footer a
+{
+    color:#000;
+}
 
-
+#footer a:hover
+{
+    color:#16a085;
+    text-decoration:none;
+}
 
 
 
