@@ -169,10 +169,40 @@ h1, p
     padding-top:30px;
 }
 
+/***SIGN UP***/
 
+#signup
+{
+    background:url('../img/bg-signup.jpg');
+    width:100%;
+    background-size:cover;
+    padding:300px 0 300px 0; 
+}
 
+#signup h1
+{
+    font-size:1.5em;
+    font-weight:700;
+    color:#fff;
+    text-align:center;
+}
 
+#signup .btn-default
+{
+    background-color:#16a085;
+    border-color:#16a085;
+}
 
+#signup .btn-default:hover
+{
+    background-color:#000;
+    border-color:#000;
+}
+
+#signup .fa
+{
+    color:#fff;
+}
 
 
 
