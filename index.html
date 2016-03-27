@@ -220,6 +220,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
       
+    <!-- pour que la navbar disparaisse apres un scroll de 500px vers le bas -->  
     <script>
         (function($){
             $(document).ready(function(){
@@ -231,22 +232,26 @@
                      $(window).scroll(function(){
                          if($(this).scrollTop() > 500)
                          {
-                             $(".navbar").fadeOut();
+                             $('.navbar').fadeOut();
                          }
                          else
                          {
-                             $(".navbar").fadeIn();
+                             $('.navbar').fadeIn();
                          }
-                         
                      });
-                    
-                });
-                
+                });  
             });
-            
         }(jQuery));
-      
     </script>
+      
+    <!-- pour controler la vitesse de défilement du carousel, on change juste l'intervalle en millisecondes interval:3000 | pause:false  | wrap:false -->    
+    <script>
+         $('.carousel').carousel({
+             
+             interval:3000
+         });
+    </script>
+      
   </body>
 </html>
 
