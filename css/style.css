@@ -7,14 +7,14 @@ h1, p
 
 .navbar-default
 {
-    background-color:transparent;
+    background-color:rgba(0,0,0, 0.2);
     border-color: transparent;
 }
 
 .navbar-nav
 {
     font-family: 'Signika Negative', sans-serif; 
-    margin: 35px 100px 0;
+    margin: 35px 100px 10px;
 }
 
 .navbar-default .navbar-nav li a
