@@ -68,7 +68,15 @@ h1, p
     #footer img
     {
         margin:0 auto;
-    }  
+    }
+    
+    /*pour que la photo des souris dans la modal s'adapte a la taille de l ecran*/
+    #jazz
+    {
+        width: 100%;
+        height: auto;
+    }
+    
 }
 
 /***SLIDER***/
