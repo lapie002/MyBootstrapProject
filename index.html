@@ -132,13 +132,43 @@
           <div class="container">
                <div class="row">
                    <div class="col-md-6 align wow bounceInLeft" align="center">
-                       <img class="img-responsive" src="img/iphone.png"/>
+                       <img class="img-responsive" src="img/iphones.png"/>
                    </div>
                    <div class="col-md-6 wow bounceInRight">
                        <h1>DESIGN</h1>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                       <button type="button" class="btn btn-success">VIEW MORE</button>
+                       
+                       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">VIEW MORE</button>
+                       
+                       
+                       <!-- Modal -->
+                       <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" align="center">Mice Playing Instruments</h4>
+                                </div>
+                                <div class="modal-body">
+                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+                                 <figure>
+                                     <img src="img/jazz.gif" alt="jazz" height="226" width="398" id="jazz" />
+                                     <figcaption align="center">Fig.1 - Symphony For a Rodent.</figcaption>
+                                 </figure>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                                
+                            </div>
+                        </div>
+                       
+                       
+                       
                    </div>
                </div>
           </div>
@@ -270,25 +300,13 @@
          });
     </script>
       
-    <!-- ma source pour back to top jQuery : https://codyhouse.co/gem/back-to-top/ --> 
+    <!-- ma source pour le back to top en jQuery : https://codyhouse.co/gem/back-to-top/ --> 
     <script>
         jQuery(document).ready(function($){
-        // browser window scroll (in pixels) after which the "back to top" link is shown
-        var offset = 300,
-            //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-            offset_opacity = 1200,
             //duration of the top scrolling animation (in ms)
             scroll_top_duration = 700,
-            //grab the "back to top" link
+            //grab the "back to top" link 
             $back_to_top = $('.totop');
-
-        //hide or show the "back to top" link
-        $(window).scroll(function(){
-            ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('totop-is-visible') : $back_to_top.removeClass('totop-is-visible totop-fade-out');
-            if( $(this).scrollTop() > offset_opacity ) { 
-                $back_to_top.addClass('totop-fade-out');
-            }
-        });
 
         //smooth scroll to top
         $back_to_top.on('click', function(event){

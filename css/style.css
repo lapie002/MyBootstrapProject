@@ -164,6 +164,11 @@ h1, p
     padding-top:30px;
 }
 
+.modal-body
+{
+    padding:100px;   
+}
+
 /***COMMUNITY***/
 
 #community
@@ -266,14 +271,12 @@ h1, p
 .totop
 {
 	display:block;
-	/*position:absolute;*/
 	width:42px;
 	height:42px;
 	background-color:#16a085;
 	color:#ffffff;
 	line-height:42px;
     margin:8px auto 0 auto;
-    /*left:47%;*/
 	cursor:pointer;
 	text-align:center;
 }
